@@ -16,3 +16,16 @@ var arr = res;
 arr[0] =19;
 console.log(res);
 // ot : [19,82]
+
+//array of JSON
+var arr = [{
+    "name":"sow",
+    "age":"23"
+},
+{
+     "name":"Mukesh",
+    "age":"08"
+}];
+console.log(arr[1].name);
+
+//Mukesh
